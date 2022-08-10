@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="CsvHelper" Version="28.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CREDITOAUTO.DOMAIN\CREDITOAUTO.DOMAIN.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.ENTITIES\CREDITOAUTO.ENTITIES.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.QUERY\CREDITOAUTO.QUERY.csproj" />
+  </ItemGroup>
+
+</Project>

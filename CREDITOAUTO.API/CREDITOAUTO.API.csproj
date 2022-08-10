@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CREDITOAUTO.APPLICATION\CREDITOAUTO.APPLICATION.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.DOMAIN\CREDITOAUTO.DOMAIN.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.QUERY.SQLSERVER\CREDITOAUTO.QUERY.SQLSERVER.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.QUERY\CREDITOAUTO.QUERY.csproj" />
+    <ProjectReference Include="..\CREDITOAUTO.REPOSITORY\CREDITOAUTO.REPOSITORY.csproj" />
+  </ItemGroup>
+
+</Project>
